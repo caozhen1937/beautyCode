@@ -8,8 +8,8 @@ import java.util.List;
 import java.util.Map;
 
 /**
-寻找一个字符串中的最长的重复子串
-*/
+ * 寻找一个字符串中的最长的重复子串
+ */
 class SubStr {
     private String str;// 子串
     private int count;// 重复次数
@@ -38,7 +38,9 @@ class SubStr {
     //两个参数的set、get方法
 
 
-    /**获取子串长度*/
+    /**
+     * 获取子串长度
+     */
     public int getLength() {
         return str.length();
     }
@@ -67,7 +69,7 @@ class JavaGetStringSon {
             }
         }
         //接下来遍历Map
-        for (Iterator<String> iterator = mMap.keySet().iterator(); iterator.hasNext();) {
+        for (Iterator<String> iterator = mMap.keySet().iterator(); iterator.hasNext(); ) {
             String key = iterator.next();//键就是各个子串
             int count = mMap.get(key);//获取该子串重复出现的次数
             if (count == 1) {//如果只出现一次，就不是重复子串，pass掉
