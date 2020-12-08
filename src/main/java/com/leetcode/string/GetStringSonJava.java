@@ -1,4 +1,4 @@
-package com.leetcode.search;
+package com.leetcode.string;
 
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -47,7 +47,7 @@ class SubStr {
 
 }
 
-class JavaGetStringSon {
+class GetStringSonJava {
 
     private static String mString = "abcdefgaceaceacw";// 待检测字符串
     private static Map<String, Integer> mMap = new HashMap<String, Integer>();// 所有子串集合<子串,重复次数>
